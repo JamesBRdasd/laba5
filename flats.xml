@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flats>
+  <entry key="10">
+    <flat>
+      <id>1</id>
+      <name>Studio Center</name>
+      <coordinates>
+        <x>12.5</x>
+        <y>7</y>
+      </coordinates>
+      <creationDate>1772030294832</creationDate>
+      <area>28.4</area>
+      <numberOfRooms>1</numberOfRooms>
+      <furnish>FINE</furnish>
+      <view>STREET</view>
+      <transport>NORMAL</transport>
+      <house>
+        <name>Alpha</name>
+        <year>2008</year>
+        <numberOfLifts>2</numberOfLifts>
+      </house>
+    </flat>
+  </entry>
+
+  <entry key="20">
+    <flat>
+      <id>2</id>
+      <name>Family Flat</name>
+      <coordinates>
+        <x>-3.14</x>
+        <y>42</y>
+      </coordinates>
+      <creationDate>1772113094832</creationDate>
+      <area>76.0</area>
+      <numberOfRooms>3</numberOfRooms>
+      <furnish>DESIGNER</furnish>
+      <view>YARD</view>
+      <transport>ENOUGH</transport>
+      <house>
+        <name>Green Tower</name>
+        <year>2019</year>
+        <numberOfLifts>4</numberOfLifts>
+      </house>
+    </flat>
+  </entry>
+
+  <!-- Пример с null-полями: area=null, furnish=null, house.name=null -->
+  <entry key="30">
+    <flat>
+      <id>3</id>
+      <name>Empty Fields Example</name>
+      <coordinates>
+        <x>0.0</x>
+        <y>0</y>
+      </coordinates>
+      <creationDate>1772116694832</creationDate>
+      <area></area>
+      <numberOfRooms>2</numberOfRooms>
+      <furnish></furnish>
+      <view>NORMAL</view>
+      <transport>LITTLE</transport>
+      <house>
+        <name></name>
+        <year>1995</year>
+        <numberOfLifts>1</numberOfLifts>
+      </house>
+    </flat>
+  </entry>
+</flats>

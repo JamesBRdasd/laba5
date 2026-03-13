@@ -1,0 +1,19 @@
+info
+show
+
+insert 99
+New From Script
+1.23
+10
+55.5
+2
+FINE
+STREET
+NORMAL
+
+2015
+2
+
+show
+print_unique_furnish
+execute_script A.txt

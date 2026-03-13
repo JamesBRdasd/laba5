@@ -1,0 +1,38 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Flat {
+  - Long id
+  - String name
+  - Coordinates coordinates
+  - Date creationDate
+  - Float area
+  - Long numberOfRooms
+  - Furnish furnish
+  - View view
+  - Transport transport
+  - House house
+  + compareTo(Flat)
+}
+
+class Coordinates {
+  - Double x
+  - Long y
+}
+
+class House {
+  - String name
+  - int year
+  - long numberOfLifts
+}
+
+enum Furnish
+enum View
+enum Transport
+
+Flat *-- Coordinates
+Flat *-- House
+Flat --> Furnish
+Flat --> View
+Flat --> Transport
+@enduml
