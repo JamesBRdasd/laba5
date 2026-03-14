@@ -109,7 +109,6 @@ public final class ConsoleApp {
         r.register(new RemoveGreaterCommand());
         r.register(new ReplaceIfGreaterCommand());
         r.register(new ReplaceIfLowerCommand());
-        r.register(new ReplaceIfLoweAlias());
         r.register(new CountGreaterThanViewCommand());
         r.register(new FilterLessThanViewCommand());
         r.register(new PrintUniqueFurnishCommand());
