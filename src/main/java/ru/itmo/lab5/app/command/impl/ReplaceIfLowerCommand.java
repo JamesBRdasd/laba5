@@ -10,8 +10,6 @@ import java.io.IOException;
 
 /**
  * replace_if_lower key {element} : заменить значение по ключу, если новое значение меньше старого
- * <p>
- * В задании команда может называться {@code replace_if_lowe} (опечатка) — поддерживается как алиас.
  */
 public final class ReplaceIfLowerCommand implements Command {
 
